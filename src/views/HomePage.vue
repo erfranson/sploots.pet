@@ -1,17 +1,24 @@
 <template>
     <div class=homePage>
-        <nav-home></nav-home>
-        <div class=test></div>
+        <nav-bar></nav-bar>
+        <main class="homePage__container">
+            
+        </main>
     </div>
 </template>
 
 <script>
-import NavHome from '../components/NavHome';
+
+import NavBar from '../components/NavBar';
+
 export default {
     name: 'HomePage',
     components: {
-        NavHome
+        NavBar
+    },
+    setup() {
     }
+    
 }
 </script>
 
